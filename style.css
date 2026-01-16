@@ -1,5 +1,5 @@
 /* 
-   Gothic Love Letter - Simplified Elegance
+   Dark love letter
 */
 
 /* Reset */
@@ -22,12 +22,12 @@
 }
 
 /* 
-   MAIN BODY - Keep your beautiful background
+   MAIN BODY
 */
 body {
     font-family: 'Cinzel', 'Garamond', serif;
     
-    /* Keep your elegant dark gradient background */
+    /*elegant dark gradient background */
     background: 
         linear-gradient(
             145deg,
@@ -35,7 +35,7 @@ body {
             var(--midnight-velvet) 100%
         ),
         
-        /* Keep your subtle lines */
+        /*subtle lines */
         repeating-linear-gradient(
             90deg,
             transparent,
@@ -65,7 +65,7 @@ body {
 }
 
 /* 
-   Main container - Keep as is
+   Main container
 */
 .container {
     max-width: 700px;
@@ -96,7 +96,7 @@ body {
 }
 
 /* 
-   HEADER - Keep as is
+   HEADER
 */
 .header {
     text-align: center;
@@ -145,14 +145,14 @@ body {
 }
 
 /* 
-   LETTER SECTIONS - SIMPLIFIED
-   Matte dark boxes with subtle shine on hover
+   LETTER SECTIONS
+   Matte dark boxes with a subtle shine on hover
 */
 .letter-section {
     margin-bottom: 60px;
     padding: 40px;
     
-    /* SIMPLE matte dark background */
+    /* matte dark background */
     background: rgba(15, 12, 10, 0.9);
     
     /* Clean border */
@@ -196,12 +196,12 @@ body {
         0 10px 25px rgba(139, 0, 0, 0.15),
         0 5px 15px rgba(0, 0, 0, 0.3);
     
-    /* Very subtle background lightening */
+    /* subtle background lightening */
     background: rgba(20, 16, 13, 0.9);
 }
 
 /* 
-   SECTION TITLES - Simple
+   SECTION TITLES
 */
 .letter-section h2 {
     color: var(--parchment);
@@ -294,7 +294,7 @@ body {
 }
 
 /* 
-   MUSIC BUTTON - Simple
+   MUSIC BUTTON
 */
 .music-button {
     position: fixed;
@@ -319,7 +319,7 @@ body {
 }
 
 /* 
-   CUSTOM SCROLLBAR - Keep your gradient
+   CUSTOM SCROLLBAR - with gradient
 */
 ::-webkit-scrollbar {
     width: 12px;
@@ -415,7 +415,7 @@ body {
     min-height: 44px !important; /* Apple's minimum touch target */
     min-width: 44px !important;
     padding: 12px 24px !important;
-    font-size: 16px !important; /* Readable text size */
+    font-size: 16px !important; /* text size */
     
     /* Better touch feedback */
     -webkit-tap-highlight-color: rgba(139, 0, 0, 0.3);
@@ -487,4 +487,5 @@ body {
     body {
         background-color: #0d0b0a;
     }
+
 }
